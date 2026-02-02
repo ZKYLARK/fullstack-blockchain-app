@@ -1,0 +1,49 @@
+/* Container utama */
+.app-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Judul */
+h1 {
+  margin-bottom: 10px;
+}
+
+/* Tombol */
+button {
+  padding: 10px 16px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+/* Card wallet */
+.wallet-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+/* Grid transaksi */
+.transaction-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+/* Card transaksi */
+.transaction-card {
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+/* Error */
+.error {
+  color: red;
+  margin-top: 10px;
+}
